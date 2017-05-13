@@ -46,7 +46,7 @@ var config = {
         tmp: '.tmp/img'
     },
     static: {
-        input: ['app/.*', '!app/*.html'],
+        input: ['app/*', 'app/.*', '!app/*.html'],
         output: 'dist',
         tmp: '.tmp'
     }
